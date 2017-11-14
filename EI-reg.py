@@ -38,7 +38,8 @@ def read_data(path):
     return data
 
 path = os.getcwd()
-path = path + "\data\EI-reg-English-Dev\\2018-EI-reg-En-anger-dev.txt"
+path = path + "\data\EI-reg-English-Train\\EI-reg-en_anger_train.txt"
 data = read_data(path)
+# Split data into train and test
 tweet_train, tweet_test, intensity_train, intensity_test = train_test_split(data["Words"], data["Intensity"], test_size=0.33)
 print(tweet_test)
