@@ -1,0 +1,202 @@
+inst#	actual	predicted	error	id	tweet	emotion
+1	0.344	0.432	0.088	1	'when we\'re offended. Lol'	anger
+2	0.563	0.43	-0.133	2	'@Jack_Septic_Eye Grass growing simulator is offended'	anger
+3	0.531	0.412	-0.119	3	'@itskaiouji Noooo, Sunbae-nim! Don\'t tease me like that- 😤'	anger
+4	0.453	0.5	0.047	4	'Is it supposed to be this arduous to interact with other people? I\'m \'other people\' to them and they don\'t seem to struggle. '	anger
+5	0.281	0.416	0.135	5	'Remember your identity is in Christ. Give the sting of rejection to Christ. He’s been there he’s done that and He has the scars to prove it.'	anger
+6	0.375	0.582	0.207	6	'What should I do to teach people effectively? #questions #answer #help #twitter #nice #sad #begging #angry #teacher #what'	anger
+7	0.438	0.448	0.01	7	'Or all of it, with our displeasure pieced, #shakespeare'	anger
+8	0.21	0.388	0.178	8	'@jaassiieeeee I will not fall to the dark side😂😂'	anger
+9	0.53	0.502	-0.028	9	'Worst dreams. 😥'	anger
+10	0.459	0.392	-0.067	10	'coffee the floor; And the soul grew furious as the stillness broken by little,'	anger
+11	0.516	0.547	0.031	11	'I wish EVERYONE could see how #MSNBC #CNN talked over trumps speech.  You ALL should be ashamed of the along with the sheep followers. '	anger
+12	0.603	0.474	-0.129	12	'@JustHerrick @iPhone_News Piece of #crap'	anger
+13	0.727	0.723	-0.004	13	'Fucking fuming is an understatement'	anger
+14	0.485	0.579	0.094	14	'Holding on to anger is like drinking poison and expecting the other person to die.\n#KissablesLoveSMShopmag\nAllOutDenimFor KISSMARC'	anger
+15	0.545	0.438	-0.107	15	'#AmericasGotTalent live shows with so many technical faults #disheartening'	anger
+16	0.221	0.435	0.214	16	'@AChubbyPanda *He would growl softly and licks his lips.* \'if I need to prove myself, I think we might need to go somewhere private.\''	anger
+17	0.547	0.536	-0.011	17	'@AwardsDaily Looks that way.  I don\'t want to see how Q is going to handle Tate murder.  #shudder'	anger
+18	0.281	0.497	0.216	18	'Dannie you\'re a terrible influence, piercing time😂💉'	anger
+19	0.438	0.523	0.085	19	'Now that Ravi Shastri is finally appointed as the head coach, it\'ll be interesting to see whether Kohli finally stops throwing his tantrums.'	anger
+20	0.258	0.561	0.303	20	'We musn\'t allow bitterness and anger to make our hearts infertile to God’s gifts.'	anger
+21	0.594	0.456	-0.138	21	'Outside has basically become a horror movie where gypsy moths take over the world by flitting aggressively about.\n\n#creaturedoublefeature'	anger
+22	0.672	0.478	-0.194	22	'maybe me and joey should have ignored each other on tinder and posted it on social media for a trip to Hawaii ☹�? #bitter'	anger
+23	0.606	0.632	0.026	23	'@MafiaWorldMario Stg everybody say that 😂 then when we tell them they got huff they be mad as shit'	anger
+24	0.422	0.444	0.022	24	'@Lythero *hugs himself hoping Doom shows up to insult everyone*'	anger
+25	0.563	0.403	-0.16	25	'Kid at camp said my inner thigh looked like a slinky👌🤣 buddy those are stretch marks!!!!  #SummerCamp #offended'	anger
+26	0.606	0.597	-0.009	26	'#LoiuseLinton has become the female #MartinShkreli. Most hated woman in America. That takes some skill. #entitlement  #notcute'	anger
+27	0.806	0.484	-0.322	27	'Great...So I got up at 5am only to discover that my Amazon Prime Day deal was $30 more than the regular price. 😡'	anger
+28	0.682	0.706	0.024	28	'United Airline at Newark needs more Kiosks so that people won\'t miss their cut off time.  And hire more ppl too.  #horrible'	anger
+29	0.75	0.595	-0.155	29	'I spotted the fed and all I got was #Ejaculating live bees and the bees are #angry.'	anger
+30	0.182	0.367	0.185	30	'Jesus drank the cup of wrath you deserve dry, so that you might drink deeply of His cup of salvation that eternally satisfies (Hab 2:15).'	anger
+31	0.382	0.354	-0.028	31	'Also my 80s megamix ain\'t so mega tonight '	anger
+32	0.645	0.536	-0.109	32	'@PayPalUK have well &amp; truly done me over the day before I go on holiday! #fuming'	anger
+33	0.823	0.596	-0.227	33	'I haven\'t lost weight but I appear smaller and I\'m pissed 🙄'	anger
+34	0.375	0.374	-0.001	34	'Alaina and I are at 90 days on our snap streak. So?'	anger
+35	0.563	0.501	-0.062	35	'UP students really out there raging against tuition collection #freeeducationnow'	anger
+36	0.5	0.363	-0.137	36	're: thread of that brit freaking out over minor cultural differences - your indignation would be cuter without the imperialist undertones'	anger
+37	0.531	0.458	-0.073	37	'@kamaalrkhan Which #chutiya #producer #invested in #crap #deshdrohi ??'	anger
+38	0.422	0.43	0.008	38	'Coulda sworn it was Interview With A Vampire. Hmmm......Mandela Effect anyone? \n#interviewwithavampire #annerice #books #horror #ilovevamps'	anger
+39	0.531	0.414	-0.117	39	'#revenge marathon has begun ⚡'	anger
+40	0.859	0.401	-0.458	40	'There\'s nothing interesting here besides of retweet for follow #annoyed 😣😣'	anger
+41	0.578	0.449	-0.129	41	'@ParkerMolloy @KFILE Very misleading heading. Not to mention an agenda driven article. '	anger
+42	0.613	0.443	-0.17	42	'if you wake up somewhere else...you will know some #arsehole has pressed a button ;)'	anger
+43	0.656	0.451	-0.205	43	'Some \'friends\' get bitter when it seems your life is moving better than theirs.'	anger
+44	0.682	0.57	-0.112	44	'@theIeansquad @SatanHeavenly Rap is so unbearable and horrific.'	anger
+45	0.406	0.442	0.036	45	'Very high bond for unrelated offense.  Cops and FBI are digging on a property. Me fears this doesn\'t end well for families'	anger
+46	0.844	0.532	-0.312	46	'Literally kicking myself for not catching up on GOT and now all I see is SPOILERS #pissed'	anger
+47	0.578	0.399	-0.179	47	'I live 30 miles away from work, &amp; arrived to realise laptop is still on the bed. '	anger
+48	0.645	0.446	-0.199	48	'﻿2|206|When it is said to him, \'Fear Allah\', He is led by arrogance to (more) crime. Enough for him is Hell;-'	anger
+49	0.227	0.333	0.106	49	'When Duane Allman died, I learned to appreciate Stevie Ray Vaughan. True story.  #blues #legends'	anger
+50	0.609	0.467	-0.142	50	'why don\'t the kids on my street have msn or something to play on instead of enjoying themselves outside #bitter #shush'	anger
+51	0.597	0.559	-0.038	51	'James Clapper \'scary and disturbing\'.  #25thAmendmentNow #ImpeachTrump  #terrified #nuclearcodes  #Godhelpus'	anger
+52	0.242	0.448	0.206	52	'It’s lack of #faith that makes #people #afraid of #meeting #challenges …\n\n#MuhammadAli'	anger
+53	0.922	0.792	-0.13	53	'And I\'m really pissed the fuck off because I do a good job of keeping my kid well because I don\'t like to see her sick and sad.'	anger
+54	0.397	0.444	0.047	54	'#WalkingSideBySide: Great marriages built on #forgiveness &amp;truthfulness; bad marriages on #resentment, bitterness, #deceit &amp;unfaithfulness.'	anger
+55	0.734	0.386	-0.348	55	'today i feel like an exposed wire dangerously close to another exposed wire and any provocation will fry me'	anger
+56	0.621	0.428	-0.193	56	'@byunsolo I DIDN\'T ASK FOR THIS EITHER IT JUST HAPPENED 😤'	anger
+57	0.203	0.36	0.157	57	'Mint owls are often indignant.'	anger
+58	0.375	0.422	0.047	58	'The sound of rain is pretty peaceful when you\'re in a very annoyed mood 😅'	anger
+59	0.656	0.56	-0.096	59	'@PamelaGeller Disgusting. @facebook you just may end up like #snap. #traitor'	anger
+60	0.439	0.342	-0.097	60	'@RoflCritic @NBTDilli @SudamaNBT ,BJP MCD busy collection of suvidha sulk from unauthorised colonies'	anger
+61	0.806	0.553	-0.253	61	'@SRuhle @MSNBC Sebestian Gorka, what a arrogant A~hole! Has no business speaking! '	anger
+62	0.938	0.805	-0.133	62	'sick of this shit. #mad #angry. Rowan Atkinson Is Not Dead. Just A Bloody Online Hoax😡😡😡😡🤬🤬🤬🤬'	anger
+63	0.597	0.518	-0.079	63	'@GirlPosts @_matdtaylor actually how annoyed you get 😂'	anger
+64	0.813	0.715	-0.098	64	'@Argos_Online customer service is dreadful, phone bill is huge and get passed from person 2 person and keep taking money off my card #idiots'	anger
+65	0.172	0.371	0.199	65	'Baby, I\'m dancing in the dark'	anger
+66	0.375	0.32	-0.055	66	'We can replace #loss with #hope, #hate with #love, #pain with #gain, if we close the window of #bitterness and open doors of #faith. #TryIt'	anger
+67	0.531	0.416	-0.115	67	'It\'s such a strange juxtaposition of emotions. A sense of euphoria but a sense of out most despair.'	anger
+68	0.303	0.518	0.215	68	'@Brennan_PB Backs up what I always thought ... yer all as mad as each other 😂'	anger
+69	0.5	0.484	-0.016	69	'@NRO @Acosta @CNN @realDonaldTrump remember when NRO gave CNN grief about their relentless HC email crusade? me either.'	anger
+70	0.359	0.44	0.081	70	'.@PreetBharara\'s Twitter barbs are both insightful and delightful to read; hell hath no fury like a crusading prosecutor scorned'	anger
+71	0.773	0.615	-0.158	71	'I swear to god my husband is gonna get us murdered by someone with road rage because he drives like he\'s in the Indy 500'	anger
+72	0.455	0.473	0.018	72	'@badpostyoongi I know for a fact they\'ll either ignore the fact tiff isn\'t or change Cindy\'s background'	anger
+73	0.625	0.477	-0.148	73	'@AmyJoSmyth #OOC Thing is she holds a grudge like mad'	anger
+74	0.331	0.441	0.11	74	'@rachelkennedy84 @callummay @Ned_Donovan @JeyyLowe @jimwaterson @dats Can it do the bell ringing and incense at consecration?'	anger
+75	0.406	0.434	0.028	75	'guess who stayed up until 2am just incase someone called but they never did like i knew already , it\'s me, mistakes were made'	anger
+76	0.375	0.412	0.037	76	'a lot of universities actively discourage even just one part-time job because it has a negative impact on studies--'	anger
+77	0.656	0.467	-0.189	77	'@izzyaline burning up damn'	anger
+78	0.734	0.574	-0.16	78	'I despair at the mouth foaming hostility &amp; dishonesty of those in the Leave camp, &amp; we should expose that.'	anger
+79	0.203	0.477	0.274	79	'The pessimist complains about the wind; the optimist expects it to change; the realist adjusts the sails.'	anger
+80	0.379	0.465	0.086	80	'@gunghoindallas Proverbs 8:13\nThe #fear of the #Lord is to hate #evil; Pride and #arrogance and the #evil #way And the perverse #mouth [1/2]'	anger
+81	0.197	0.33	0.133	81	'@AshleyEmrick Whatever floats your incense boat.'	anger
+82	0.817	0.579	-0.238	82	'Sarah is a complete lunatic. How Chad is still giving her his time is beyond me. #cbb #mad #crazy'	anger
+83	0.532	0.505	-0.027	83	'This is because of people like Saleem Sheikh humanity wins over terrorism n hatred #AmarnathYatraAttacked'	anger
+84	0.281	0.237	-0.044	84	'@praddy06 sir.. will we have the need for umbrella today evening.. sun seems to be stronger to pave way for clouds.. 😟'	anger
+85	0.547	0.589	0.042	85	'calling me ugly isn\'t even an insult bc i know already'	anger
+86	0.672	0.529	-0.143	86	'I have actually watch drugs destroy an entire family 😢Mother\'s on skid row. Oldest daughter lost her child. Father is estranged. #horrific'	anger
+87	0.75	0.574	-0.176	87	'You would think booking a holiday for 2 you\'d be sat next to each other on the bloody plane #fuming 😡@ThomsonHolidays'	anger
+88	0.406	0.395	-0.011	88	'@Bravotv is there a way to watch NYC Million Dollar Listing &amp; filter @FredrikEklundNY OUT of the episodes? #primadonna #duckface #tantrum'	anger
+89	0.636	0.549	-0.087	89	'@vinsquat67 It was indeed, I was raging at the verdict. Can\'t imagine how the poor lassies family felt.'	anger
+90	0.656	0.429	-0.227	90	'Literally hanging on by a thread need some taylor ray tonight loving a bad dog sucks #taylorrayholbrook #hurting @TaylorRaysTweet'	anger
+91	0.547	0.592	0.045	91	'What\'s worse than feeling discouraged? Not finding an emoji for feeling discouraged'	anger
+92	0.387	0.463	0.076	92	'I always bounce back, life goes on man..I refuse to sulk in negativity. Yesterday\'s problems are just that, it\'s always a new day 🤗'	anger
+93	0.515	0.585	0.07	93	'\'to fill his campaign bank account with tens of millions of dollars\'..trump 2020 campaign to start now #sad  #bad'	anger
+94	0.565	0.519	-0.046	94	'And I will eat the end of term chocolates we bought as well! #fuming #doesntdeservethem #mightbedead'	anger
+95	0.516	0.532	0.016	95	'Desi feminists must have it the hardest. Imagine controlling that rage due to having to dance in a wedding at \'Mai Baarish Kar du Paise ki\''	anger
+96	0.406	0.482	0.076	96	'Sorry if I annoy any of you. I\'m just real passionate about Ruby and always want to give her the love she deserves 😭'	anger
+97	0.545	0.464	-0.081	97	'@UKSportsZone In other words, I don\'t like the result of the poll so I\'m packing up my polls &amp; taking them home while I pout. 😂😂😻 #bbn'	anger
+98	0.25	0.495	0.245	98	'\'your marker teacher\'.i looked at him n just burst out laughing i swear these kids will never take me seriously 🤦�?��?♀�?'	anger
+99	0.79	0.401	-0.389	99	'@1ncamera @Weehugs @DavidYoungPA @PA Stupidity is part of their proud cultural identity. 😠'	anger
+100	0.563	0.585	0.022	100	'@ehtesham_toi @RaviShastriOfc unfortunate decision, our players are more of superstars than cricketers. BCCI scared of their tantrums.'	anger
+101	0.47	0.528	0.058	101	'Chyna didnt respond to rob cus she knew damn well she was plottin. But i knew he hurt her deeply with that revenge porn'	anger
+102	0.313	0.432	0.119	102	'I literally love Paul so much #BB19 #pissed 😂'	anger
+103	0.891	0.59	-0.301	103	'Won\'t be watching ESPN anymore, they took Robert Lee off because of HIS name, PC Police, what insanity! more #hatred #bigots #LeftwingNutJob'	anger
+104	0.609	0.617	0.008	104	'Blah blah blah Kyrie, IT, etc. @CJC9BOSS leaving Boston is the real news and I am #devastated! #celtics #fave  #someonegetmeajerseyteeasap'	anger
+105	0.844	0.585	-0.259	105	'@Delta.  Are you kidding?  Delayed from 7:30pm to 11:00 - only to cancel it because the pilot is overtime. '	anger
+106	0.581	0.62	0.039	106	'@IainDale @LBC The only word worse than \'moist\' in my opinion is \'scrape\'. #ugh #shudder'	anger
+107	0.871	0.586	-0.285	107	'very very irritated �?'	anger
+108	0.212	0.461	0.249	108	'Leviticus 19:14\nYou shall not curse the #deaf or put a stumbling #block before the #blind, but you shall #fear your #God: I am the [1/2]'	anger
+109	0.656	0.631	-0.025	109	'if not then #teamchristine bc all tana has done is provoke her by tweeting shady shit and trying to be a hard bitch begging for a fight'	anger
+110	0.703	0.728	0.025	110	'Why have #Emmerdale had to rob #robron of having their first child together for that vile woman/cheating sl smh #bitter'	anger
+111	0.333	0.35	0.017	111	'@wizkidayo Bro u just dey burst my brain Bro I need u 2 pls end everything rift BTW u nd my hommie davido pls Bro 4 d sake of luv.'	anger
+112	0.156	0.454	0.298	112	'So happy to be home from Ibiza the place is some thing else mad gaff that , need find a bird now I wanna start doing romantic things now 😂😂'	anger
+113	0.422	0.484	0.062	113	'@michaelsloan87 @SkyFootball The disappointment when it\'s actually a new club sponsor! 😂'	anger
+114	0.828	0.719	-0.109	114	'you annoy me, your name annoys me, your EVERYTHING annoys me 🙃'	anger
+115	0.778	0.564	-0.214	115	'@TorridFashion I love you, but between online order drama and your horrible hold music I have a bit of a shopping induced headache. #annoyed'	anger
+116	0.625	0.432	-0.193	116	'@junkersquawker Oh lords. That would have had my blood boiling'	anger
+117	0.766	0.616	-0.15	117	'Hey @NHSEngland imagine being blue lighted to hospital unable to breathe only to be dumped in a cubicle and not seen for 4 hours #horrendous'	anger
+118	0.581	0.671	0.09	118	'@kylegriffin1 #outrage police\ntelling a woman she looks nice for her age is apparently sexist.\nYou #FakeNews people are #crazy'	anger
+119	0.219	0.234	0.015	119	'Wow! Today, totally seeing alot of #mean #people out in this #world! Turn it around and #start cultivating #kindness! #SuccessTRAIN #warrior'	anger
+120	0.455	0.45	-0.005	120	'@_Buddh_ @rohit_mhpl @indujalali @rajnathsingh We are also wating when terrorism willb history. And one thing kashmir is not India\'s'	anger
+121	0.609	0.574	-0.035	121	'@SteveBakerHW When it comes to CREDIBLE scare stories George Osbourne is crap, still at it I see.'	anger
+122	0.578	0.528	-0.05	122	'@mickyrivera29 interesting but a transfer too costly. You can only irritate others when you get a top talent for a low/ avg fee'	anger
+123	0.469	0.406	-0.063	123	'@duthie @Carabao_Cup Lets not mention this again! #QPRvBRE '	anger
+124	0.219	0.421	0.202	124	'@rizikxo @estherolo_ @Corinnetuc17 @ING Her reasonings behind this.  '	anger
+125	0.609	0.461	-0.148	125	'@KeenanRuggeri You would have been raging as it was probably put in place instead of an extra crisp'	anger
+126	0.333	0.307	-0.026	126	'Wow what\'s up with #snap 😲📊📉⬇#cnnmoney'	anger
+127	0.694	0.497	-0.197	127	'@CNN thanks Hollywood, (Depp). all these climate change fanatics using private jets and gas guzzling cars are to blame for this! #outrage'	anger
+128	0.438	0.416	-0.022	128	'since the last episode of fight for my way is airing tonight &amp; taekook will probably watch it together, do y\'all think jk might take revenge'	anger
+129	0.274	0.421	0.147	129	'Good Morning Tuesday! No crap today please 😃 #tantrums #toddler #cuddly #struggles #3 #10 #PMA'	anger
+130	0.356	0.506	0.15	130	'Mother Nature dropping mad beats out there this morning. Just wish they wouldn\'t shake my shower stall while I\'m standing there naked.'	anger
+131	0.177	0.493	0.316	131	'EEEEEKKKK!!!!\nProduct LAUNCH �?✋💖\nI\'m am literally B•U•Z•Z•I•N•G!!!\nSingle sachets �?�?\n \nMessage me for yours! 😜🙆💜#loveyourlifestyle #shakes'	anger
+132	0.453	0.503	0.05	132	'@_elliegillxx @0liviarobertson Poor Lyn 😂😂😂 livv I hope she forgets yours this year in revenge'	anger
+133	0.563	0.408	-0.155	133	'Some people are shady a\'f '	anger
+134	0.516	0.527	0.011	134	'I think I\'ll eternally be irritated by our LIT teacher 😂'	anger
+135	0.475	0.406	-0.069	135	'@comrade_islaboy HAHAHAHAHA. Hornet\'s nest. Let them sting each other.'	anger
+136	0.156	0.326	0.17	136	'Something #awestruck me today as i was laughing to a non subtitle korean variety show...'	anger
+137	0.656	0.44	-0.216	137	'work is going to kill me and 5 o\'clock is nowhere near 😟'	anger
+138	0.297	0.395	0.098	138	'This time last year I was pissed at the top of the Eiffel Tower. Today I was down a manhole in the rain. Happy Anniversary @Jordannea11 😘♥�?'	anger
+139	0.188	0.446	0.258	139	'@shanedawson @JeffreeStar @JessButtafuoco No offense but.. Jeffee looks like a pink demon😂'	anger
+140	0.797	0.445	-0.352	140	'@silverstein 13th time seeing you guys today and you cancel the meet and greet because of the storm. We\'re all soaked.. 😡 #dissapointed'	anger
+141	0.656	0.832	0.176	141	'Why are girls so bad at letting shit go? That\'s prolly why they\'re moody. They\'re all built up with grudges and anger and regret. 😂'	anger
+142	0.281	0.405	0.124	142	'\'When the mind is denied the emotional sting of losing it never figures out how to win.\' -Jonah Lehrer'	anger
+143	0.438	0.486	0.048	143	'@AGlyndwr @TeaPainUSA All I know is the sentence will start with \'look...\' like any high school punk would start a threat.'	anger
+144	0.435	0.33	-0.105	144	'Alright Alex and I have party boy neighbors who blast music '	anger
+145	0.788	0.506	-0.282	145	'Perks of having that shit: I lost a friend somewhere along in the bitterness'	anger
+146	0.379	0.525	0.146	146	'Letting go of anger is key to happiness. Please help me let go of these angry feelings. #happiness #anger'	anger
+147	0.29	0.611	0.321	147	'Don\'t let hatred grow in you, otherwise everything in your life will be affected. It will distract &amp; anger you. It will often end in regret.'	anger
+148	0.394	0.398	0.004	148	'Just paid out my arsehole for a couple of New Found Glory tickets but it\'s gonna be a GREAT start to my birthday weekend 👊'	anger
+149	0.391	0.599	0.208	149	'Protesters in Brazil are burning effigies of their President. He and some of his cabinet are under investigation for corruption. #sabcnews'	anger
+150	0.424	0.574	0.15	150	'1/If the Church is being attacked with such fury, and from the inside, that means that the Church is exactly what we need to belong to!'	anger
+151	0.545	0.576	0.031	151	'@Ben_Ripley42 I dont know but you seem to have annoyed her 😄'	anger
+152	0.71	0.531	-0.179	152	'Afridi !!! 100 off 42 !! #mad'	anger
+153	0.813	0.483	-0.33	153	'@WhiteJennyB @EmreUslu jenny white  u r the dumbest here .. What r u trying ? Get lost..'	anger
+154	0.641	0.683	0.042	154	'#CNN really needs to get out of the #Propaganda Business.. 30 seconds on USN fallen Soldiers tragedy. Right back at spewing #hatred #POTUS'	anger
+155	0.688	0.547	-0.141	155	'@LeahRemini  A \'religion\' that pushes people to suicide, and punishes you for doing the right thing?? #heartbreaking'	anger
+156	0.688	0.548	-0.14	156	'@MarkRDuckett it did, i saw the tweet, it had a crack at u, about a greens tweet. it holds a grudge dude. so pathetic.'	anger
+157	0.641	0.538	-0.103	157	'@RanaAyyub @rajnathsingh Oh, hidden revenge and anger...I rememberthe time,she rebutted you.'	anger
+158	0.265	0.551	0.286	158	'Not letting anyone anger me or change who I am.'	anger
+159	0.194	0.273	0.079	159	'A goal should scare you a little, and excite you a lot. - Joe Vitale #quote'	anger
+160	0.516	0.404	-0.112	160	'-c- and disarmed of her equipment on suspicion of being a potential accomplice to Annie Leonhart.'	anger
+161	0.844	0.619	-0.225	161	'Shit getting me irritated 😠'	anger
+162	0.813	0.63	-0.183	162	'Time to #impeachtrump . He is #crazy #mentally #sick and spews #hatred . #America is in trouble with him having #access to #nuclearcodes 👎👎'	anger
+163	0.391	0.538	0.147	163	'@GILMONK1 Maybe to stand in the field to scare away the crows'	anger
+164	0.613	0.541	-0.072	164	'I feel exhausted ...\nI tried to do a good job, but apparently God does not see me right. I\'m weary! I EXIST! 😟💔📢\n#exist #weary #misonorotta'	anger
+165	0.652	0.511	-0.141	165	'@0510Keisuke devour the unborn\nhuman rejection\nfrom wrath to ruins'	anger
+166	0.698	0.463	-0.235	166	'#PhoenixRally #Deplorables insult and denigrate #JohnMcCain as he struggles with treatment for #glioblastoma #impeach45 incites '	anger
+167	0.323	0.421	0.098	167	'Paul Ehrlich said that humanity is a threat to all life. Such great news to start the day. If I could blush I would.'	anger
+168	0.242	0.327	0.085	168	'Ask for my #snapchat #pussy #cock #horny #cum #wet #tits #follow '	anger
+169	0.547	0.604	0.057	169	'@chelston_dsouza Conte is furious with his board, wants all of them or he quits.'	anger
+170	0.344	0.407	0.063	170	'@Jarrius Send me a FR: Jaygerrr and I\'ll smoke you on madden when it comes out 😂🤙'	anger
+171	0.219	0.392	0.173	171	'made up my mind to \nmake a new start'	anger
+172	0.391	0.421	0.03	172	'#resentment best Beyoncé song #dontdebateme'	anger
+173	0.359	0.389	0.03	173	'Yes @itv2 @LoveIsland putting that Angel @MikeThalassitis back in the villa was the best move #revenge #returnofthemike #LoveIsland #hot'	anger
+174	0.323	0.453	0.13	174	'again i realize some of you may worry about me being gone so long! fear not, for i have made a new life for myself in the sewers,'	anger
+175	0.5	0.49	-0.01	175	'@Chawndi @YouTube can i ask im trying to pout a code on csgo roll i cant when i pout the code its red color.. help pls'	anger
+176	0.242	0.18	-0.062	176	'@chelseanews4you Best of luck blues army make us feeling goofy this season again  BLUES TILL ETERNITY'	anger
+177	0.397	0.436	0.039	177	'#revenge or #Change . You #ChooseASide for your country #India'	anger
+178	0.197	0.417	0.22	178	'It was at least boiling temperature last night.'	anger
+179	0.485	0.394	-0.091	179	'@narendramodi @AmitShahOffice @OfficeOfRG @arunjaitley all the politicl prties lv n care fr ppl whn in opstn.  #AmarnathTerrorAttack'	anger
+180	0.955	0.558	-0.397	180	'@rosieblossoms_ What a miserable piece of shit 😡'	anger
+181	0.281	0.366	0.085	181	'+++ \'#Dearly #beloved, avenge not yourselves, but rather give place unto #wrath: for it is #written, #Vengeance is #mine; I …\' #Romans12v19'	anger
+182	0.455	0.527	0.072	182	'@amjadhussain73 @MehreenFaruqi Don\'t waste your time on that Muslim crap. Ups you are Arab too. 😂 😂 😂 Greatings fro Pauline Hanson. 😂 😂 😂'	anger
+183	0.813	0.822	0.009	183	'get the fuck over yourselves. we are the most capable and you wanna sit and sulk in your bullshit and fear of failure honestly fuck yourself'	anger
+184	0.594	0.6	0.006	184	'when everyone you know has died because of a treaty you had no involvement in drawing up, you get an enormous amount of fury'	anger
+185	0.203	0.506	0.303	185	'@TheEllenShow I follow you bc your TV show keeps me laughing🤣.  When you #startle your guest sitting on that couch...booo...'	anger
+186	0.273	0.402	0.129	186	'@lucybeecoconut A make up remover and insect sting relief!'	anger
+187	0.172	0.399	0.227	187	'So great havin @SamGowland123 back on our screens �?�? and fingers crossed @MikeThalassitis goes for Georgia 🤞😂 #revenge #loveisland'	anger
+188	0.813	0.411	-0.402	188	'@freemanstanzan2 you\'re a cowan... that means you\'re a slimebag. I wouldn\'t trust you as far as I could throw you. #arsehole @StuartHarker1'	anger
+189	0.672	0.496	-0.176	189	'If @TheRock\'s Presidential run is as bad as his appearance in #Baywatch neither party need fear his run. That\'s $8 I\'ll never get back #crap'	anger
+190	0.625	0.487	-0.138	190	'There\'s still sadness and hatred pero i do feel better than yesterday.'	anger
+191	0.29	0.512	0.222	191	'+ cant get to tell them what will offend them or not'	anger
+192	0.922	0.512	-0.41	192	'Seriously about to smack someone in the face 😵 #arsehole'	anger
+193	0.833	0.522	-0.311	193	'Been at work for not even 4 hours and I\'ve thrown boiling tea everywhere, smashed a mug, smashed a milk jug and sliced my finger open�?'	anger
+194	0.859	0.597	-0.262	194	'I click on download on my PC. Message says \'Thank you for downloading #iTunes \nSo, where\'s the download?! #frustrated '	anger
+195	0.875	0.761	-0.114	195	'Why does @DANCEonFOX get rudely interrupted by the worst thing ever imaginable?!? Ugggg #irritated'	anger
+196	0.766	0.576	-0.19	196	'If I have to hear one more time how I am intimidate men... I\'m going to explode! Why are guys these days so pussified?'	anger
+197	0.383	0.415	0.032	197	'i\'ve been to 1 and 1/3 of my classes today and i am already '	anger
+198	0.5	0.436	-0.064	198	'quick note about insta stories how the f do you expect me to read a paragraph of a caption in 1 second ???????????? '	anger
+199	0.75	0.467	-0.283	199	'@AliceT120 @shaney_waney1 @shaney_waney1 u horrible non gender binary boy go fangirl over some mediocre singers who CANT EVEN SUPPORT'	anger
+200	0.719	0.413	-0.306	200	'#Twitter these days is just a massive critical debate on those that people don\'t like #annoying #depressing and #dull 😑'	anger
+
