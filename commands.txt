@@ -1,0 +1,75 @@
+1. convert to arff:
+	python tweets_to_arff.py data/baseline/sadness.txt data/baseline/arff/sadness-ratings-0to1.train.arff
+	python tweets_to_arff.py data/baseline/sadness-test.txt data/baseline/arff/sadness-ratings-0to1.test.target.arff
+2. copy arff to weka/data/emoint_baseline
+3. run following from weka folder C:\Program Files\Weka-3-8> from admin
+	
+	final command using lexicon feature vector and preprocessing --->
+
+	1. anger
+
+	java -Xmx4G -cp weka.jar weka.Run weka.classifiers.meta.FilteredClassifier -t data/emoint_baseline/anger-ratings-0to1.train.arff -T data/emoint_baseline/anger-ratings-0to1.test.target.arff -classifications "weka.classifiers.evaluation.output.prediction.CSV -use-tab -p first-last -file data/emoint_baseline/results/anger-pred.csv" -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 2 -A -D -F -H -J -L -N -P -Q -R -T -U -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.Reorder -R 5-last,4\"" -W weka.classifiers.functions.LibLINEAR -- -S 12 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000 
+
+	2. fear
+
+	java -Xmx4G -cp weka.jar weka.Run weka.classifiers.meta.FilteredClassifier -t data/emoint_baseline/fear-ratings-0to1.train.arff -T data/emoint_baseline/fear-ratings-0to1.test.target.arff -classifications "weka.classifiers.evaluation.output.prediction.CSV -use-tab -p first-last -file data/emoint_baseline/results/fear-pred.csv" -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 2 -A -D -F -H -J -L -N -P -Q -R -T -U -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.Reorder -R 5-last,4\"" -W weka.classifiers.functions.LibLINEAR -- -S 12 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000 
+
+	3. joy
+
+	java -Xmx4G -cp weka.jar weka.Run weka.classifiers.meta.FilteredClassifier -t data/emoint_baseline/joy-ratings-0to1.train.arff -T data/emoint_baseline/joy-ratings-0to1.test.target.arff -classifications "weka.classifiers.evaluation.output.prediction.CSV -use-tab -p first-last -file data/emoint_baseline/results/joy-pred.csv" -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 2 -A -D -F -H -J -L -N -P -Q -R -T -U -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.Reorder -R 5-last,4\"" -W weka.classifiers.functions.LibLINEAR -- -S 12 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000 
+
+	4. sadness
+
+	java -Xmx4G -cp weka.jar weka.Run weka.classifiers.meta.FilteredClassifier -t data/emoint_baseline/sadness-ratings-0to1.train.arff -T data/emoint_baseline/sadness-ratings-0to1.test.target.arff -classifications "weka.classifiers.evaluation.output.prediction.CSV -use-tab -p first-last -file data/emoint_baseline/results/sadness-pred.csv" -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 2 -A -D -F -H -J -L -N -P -Q -R -T -U -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.Reorder -R 5-last,4\"" -W weka.classifiers.functions.LibLINEAR -- -S 12 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000 
+
+4. csv files generated in the folder "C:\Program Files\Weka-3-8\data\emoint_baseline\results\"
+5. convert csv to txt and copy these files to "D:\NLP\Project\data\baseline\results\"
+6. Run command python fix_weka_output.py data/baseline/results/sadness-pred.txt data/baseline/results/sadness-pred-fixed.txt for all 4 emotions
+7. Run evaluation command - 
+	python evaluate.py 4 data/baseline/results/anger-pred-fixed.txt data/baseline/anger-test.txt data/baseline/results/fear-pred-fixed.txt data/baseline/fear-test.txt data/baseline/results/joy-pred-fixed.txt data/baseline/joy-test.txt data/baseline/results/sadness-pred-fixed.txt data/baseline/sadness-test.txt
+8. results - 
+	Pearson correlation between data/baseline/results/anger-pred-fixed.txt and data/baseline/anger-test.txt:        0.581219773499
+	Spearman correlation between data/baseline/results/anger-pred-fixed.txt and data/baseline/anger-test.txt:       0.575534260283
+	
+	Pearson correlation for gold scores in range 0.5-1 between data/baseline/results/anger-pred-fixed.txt and data/baseline/anger-test.txt: 0.441704209183
+	Spearman correlation for gold scores in range 0.5-1 between data/baseline/results/anger-pred-fixed.txt and data/baseline/anger-test.txt:        0.42476738907
+	
+	Pearson correlation between data/baseline/results/fear-pred-fixed.txt and data/baseline/fear-test.txt:  0.636156016649
+	Spearman correlation between data/baseline/results/fear-pred-fixed.txt and data/baseline/fear-test.txt: 0.679556767855
+	
+	Pearson correlation for gold scores in range 0.5-1 between data/baseline/results/fear-pred-fixed.txt and data/baseline/fear-test.txt:   0.436450847649
+	Spearman correlation for gold scores in range 0.5-1 between data/baseline/results/fear-pred-fixed.txt and data/baseline/fear-test.txt:  0.476875116763
+	
+	Pearson correlation between data/baseline/results/joy-pred-fixed.txt and data/baseline/joy-test.txt:    0.619739374914
+	Spearman correlation between data/baseline/results/joy-pred-fixed.txt and data/baseline/joy-test.txt:   0.657164504803
+	
+	Pearson correlation for gold scores in range 0.5-1 between data/baseline/results/joy-pred-fixed.txt and data/baseline/joy-test.txt:     0.311824921377
+	Spearman correlation for gold scores in range 0.5-1 between data/baseline/results/joy-pred-fixed.txt and data/baseline/joy-test.txt:    0.376989050737
+	
+	Pearson correlation between data/baseline/results/sadness-pred-fixed.txt and data/baseline/sadness-test.txt:    0.55770560607
+	Spearman correlation between data/baseline/results/sadness-pred-fixed.txt and data/baseline/sadness-test.txt:   0.560937584379
+	
+	Pearson correlation for gold scores in range 0.5-1 between data/baseline/results/sadness-pred-fixed.txt and data/baseline/sadness-test.txt:     0.440108056561
+	Spearman correlation for gold scores in range 0.5-1 between data/baseline/results/sadness-pred-fixed.txt and data/baseline/sadness-test.txt:    0.450883659944
+	
+	Average Pearson correlation:    0.598705192783
+	Average Spearman correlation:   0.61829827933
+	Average Pearson correlation for gold scores in range 0.5-1:     0.407522008692
+	Average Spearman correlationfor gold scores in range 0.5-1:     0.432378804129
+
+
+
+
+
+using CV ---->
+
+java weka.jar weka.Run weka.classifiers.meta.FilteredClassifier -t data/anger-ratings-0to1.train.arff  -F "weka.filters.MultiFilter -F \"weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -I 2 -A -D -F -H -J -L -N -P -Q -R -T -U -O\" -F 
+\"weka.filters.unsupervised.attribute.Reorder -R 5-last,4\"" -W weka.classifiers.functions.LibLINEAR -- -S 12 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000 
+
+
+
+
+using preprocessing --->
+
+weka.classifiers.meta.FilteredClassifier -F  "weka.filters.MultiFilter -F 
+\"weka.filters.unsupervised.attribute.TweetToSentiStrengthFeatureVector -L $HOME/wekafiles/packages/AffectiveTweets/lexicons/SentiStrength/english -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -I 1 -U -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.TweetToLexiconFeatureVector -F -D -R -A -T -L -N -P -J -H -Q -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -I 1 -U -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.TweetToEmbeddingsFeatureVector -S AVERAGE_ACTION -embeddingHandler \\\"affective.core.CSVEmbeddingHandler -K $HOME/wekafiles/packages/AffectiveTweets/resources/w2v.twitter.edinburgh.100d.csv.gz -sep \\\\\\\"\\\\\\\\t\\\\\\\" -I last\\\" -K 15 -stemmer weka.core.stemmers.NullStemmer -stopwords-handler \\\"weka.core.stopwords.Null \\\" -I 1 -U -tokenizer \\\"weka.core.tokenizers.TweetNLPTokenizer \\\"\" -F \"weka.filters.unsupervised.attribute.Reorder -R 4-last,3\"" -W weka.classifiers.functions.LibLINEAR -- -S 1 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000
