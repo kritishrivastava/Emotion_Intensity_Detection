@@ -107,7 +107,7 @@ def train_validate_test(train_feat, train_labels, test_feat, test_labels, l1_neu
             assert(filename!=""), "filename not available"
             with open(filename, 'wb') as handle:
                 p.dump(map, handle, protocol=p.HIGHEST_PROTOCOL)
-                print(filename, " saved")
+                print filename, " saved"
         
             
 #         print('test_mse', test_mse)
@@ -159,7 +159,7 @@ def k_fold_cv(dataset_path, filename, train_valid_split=0.8, k=10):
     l1_mse=[]        
     l1_arr=[(300-10*i) for i in range(10)]
     for l1 in l1_arr:
-        print('l1', l1)
+        print 'l1', l1
         mse_arr=[]
         for i in range(k):
             
@@ -202,13 +202,13 @@ def k_fold_cv(dataset_path, filename, train_valid_split=0.8, k=10):
         
         l1_mse.append(np.mean(mse_arr))
     best_l1=l1_arr[np.argmin(l1_mse)]
-    print('best_l1', best_l1)
+    print 'best_l1', best_l1
     
     
     l2_mse=[]        
     l2_arr=[(best_l1-10*i) for i in range(10)]
     for l2 in l2_arr:
-        print('l2', l2)
+        print 'l2', l2
         mse_arr=[]
         if(l2<2):
             break
@@ -253,12 +253,12 @@ def k_fold_cv(dataset_path, filename, train_valid_split=0.8, k=10):
         
         l2_mse.append(np.mean(mse_arr))
     best_l2=l2_arr[np.argmin(l2_mse)]
-    print('best_l2', best_l2)
+    print 'best_l2', best_l2
     
     l3_mse=[]        
     l3_arr=[(best_l2-10*i) for i in range(10)]
     for l3 in l3_arr:
-        print('l3', l3)
+        print 'l3', l3
         mse_arr=[]
         if(l3<2):
             break
@@ -303,13 +303,13 @@ def k_fold_cv(dataset_path, filename, train_valid_split=0.8, k=10):
         
         l3_mse.append(np.mean(mse_arr))
     best_l3=l3_arr[np.argmin(l3_mse)]
-    print('best_l3', best_l3)
+    print 'best_l3', best_l3
     
     
     l4_mse=[]        
     l4_arr=[(best_l3-10*i) for i in range(10)]
     for l4 in l4_arr:
-        print('l4', l4)
+        print 'l4', l4
         mse_arr=[]
         if(l4<2):
             break
@@ -354,7 +354,7 @@ def k_fold_cv(dataset_path, filename, train_valid_split=0.8, k=10):
         
         l4_mse.append(np.mean(mse_arr))
     best_l4=l4_arr[np.argmin(l4_mse)]
-    print('best_l4', best_l4)
+    print 'best_l4', best_l4
     
     train_validate_test(train_v_feat, train_v_lab, test_feat, test_lab, l1_neurons=best_l1, l2_neurons=best_l2, l3_neurons=best_l3, l4_neurons=best_l4, analytics=True, filename=filename)
 
